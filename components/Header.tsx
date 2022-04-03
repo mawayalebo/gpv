@@ -17,21 +17,21 @@ function Header() {
                         <li className='navBtn'>
                             <Link href={"/"}>
                                 <div className=''>
-                                    <span className='text-slate-500'>Home</span>
+                                    <span className='navBtn-text'>Home</span>
                                 </div>
                             </Link>
                         </li>
                         <li className='navBtn'>
                             <Link href={"/"}>
                                 <div className=''>
-                                    <span className='text-slate-500'>Services</span>
+                                    <span className='navBtn-text'>Services</span>
                                 </div>
                             </Link>
                         </li>
                         <li className='navBtn'>
                             <Link href={"/"}>
                                 <div className=''>
-                                    <span className='text-slate-500'>About us</span>
+                                    <span className='navBtn-text'>About us</span>
                                 </div>
                             </Link>
                         </li>

@@ -10,7 +10,6 @@ const Home: NextPage = () => {
         <title>GPV Group | Business Solutions</title>
         <link rel="icon" href="/images/logo.png" />
       </Head>
-      <Carousel/>
     </main>
   )
 }
