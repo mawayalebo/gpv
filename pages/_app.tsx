@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 function MyApp({ Component, pageProps }: AppProps) {
   return(
     <Layout>
-      <div className='max-w-4xl mx-auto'>
+      <div className=''>
         <Component {...pageProps} />
       </div>
     </Layout>

@@ -4,7 +4,7 @@
 
 @layer components{
     .navBtn {
-        @apply cursor-pointer rounded-full hover:border-2 hover:border-purple-700 px-6 hover:scale-110 hover:text-purple-700 hover:font-bold hover:transition duration-700  ease-in ;
+        @apply cursor-pointer rounded-full hover:border-2 hover:border-purple-700 px-6 hover:scale-110 hover:text-purple-700 hover:font-bold hover:transition duration-700  ease-in hover:mb-3;
     } 
     
 }
