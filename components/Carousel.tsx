@@ -22,7 +22,7 @@ function Carousel() {
 
     return ( 
         <section className='absolute flex justify-start w-screen -z-10 top-0 overflow-hidden'>
-            <Banner autoPlay infiniteLoop interval={10000} showThumbs={false} showIndicators={false} showArrows={false} showStatus={false} animationHandler={"slide"} transitionTime={5}>
+            <Banner autoPlay infiniteLoop interval={10000} showThumbs={false} showIndicators={false} showArrows={false} showStatus={false} transitionTime={5}>
                 {
                     images.map((image, index) => {
                         return (
