@@ -21,12 +21,12 @@ function Carousel() {
 
 
     return ( 
-        <section className='absolute flex justify-start w-screen -z-10 top-0 overflow-hidden'>
-            <Banner autoPlay infiniteLoop interval={10000} showThumbs={false} showIndicators={false} showArrows={false} showStatus={false} transitionTime={5}>
+        <section className='absolute w-screen -z-10 top-0 overflow-hidden'>
+            <Banner autoPlay infiniteLoop interval={9000} showThumbs={false} showIndicators={false} showArrows={false} showStatus={false} >
                 {
                     images.map((image, index) => {
                         return (
-                            <div key={index} className="relative w-screen h-[600px]">
+                            <div key={index} className="relative w-screen h-screen">
                                 <Image loading='eager' src={image.src} alt={image.alt} layout="fill" objectFit='cover'/>
                             </div>
                         )
