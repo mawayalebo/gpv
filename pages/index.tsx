@@ -5,7 +5,9 @@ import Carousel from '../components/Carousel'
 import Combo from '../components/Combo'
 import Contact from '../components/Contact'
 
+
 const Home: NextPage = () => {
+  
   return (
     <main className="">
       <Head>
@@ -14,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <div className='grid grid-cols-2 p-5'>
         <div>
-          <Combo/>
+          <Combo />
         </div>
         <Contact/>
       </div>
@@ -22,5 +24,6 @@ const Home: NextPage = () => {
     </main>
   )
 }
+
 
 export default Home
