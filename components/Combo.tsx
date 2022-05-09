@@ -17,14 +17,14 @@ function Combo() {
                     Combos.map((combo, index) => {
                         return (
                             <div key={index}>
-                                <div className="bg-blue-300 p-4">
-                                    <h2>{combo.Name}</h2>
+                                <div className="bg-[#6a63312a] p-4 shadow-md">
+                                    <h2 className="font-bold uppercase">{combo.Name}</h2>
                                     <div>
                                         <ul>
                                             {
                                                 combo.items.map((item, index) => {
                                                     return (
-                                                        <li key={index}>{item}</li>
+                                                        <li key={index} className="p-2 bg-[#ffffff8a] my-2 rounded-full hover:ml-3 hover:shadow-md hover:font-semibold hover:transtion delay-3 duration-300 cursor-default">{item}</li>
                                                     )
                                                 })
                                             }
